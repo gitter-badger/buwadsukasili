@@ -3,7 +3,7 @@ require 'sinatra/base'
 class BuwadSukaSili < Sinatra::Base
 
 	get '/' do
-		'Coming, Soon'
+		'Coming Soon!'
 	end
 
 	get '/health' do
