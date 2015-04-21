@@ -3,7 +3,11 @@ require 'sinatra/base'
 class BuwadSukaSili < Sinatra::Base
 
 	get '/' do
-		'Hello, World'
+		'Coming, Soon'
+	end
+
+	get '/health' do
+		'ok'
 	end
 
 	run! if app_file == $0
