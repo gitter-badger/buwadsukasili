@@ -1,1 +1,1 @@
-web1: unicorn --config-file unicorn.conf.rb
+web1: unicorn --config-file ./config/unicorn.rb
